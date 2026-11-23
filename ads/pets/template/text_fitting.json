@@ -1,0 +1,122 @@
+{
+  "layers": [
+    {
+      "nm": "Headline",
+      "textFit": {
+        "wrap": true,
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            0,
+            0,
+            662,
+            600
+          ]
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Subline",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Offer",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Offer detail",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Perk 1",
+      "textFit": {
+        "wrap": true,
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            0,
+            0,
+            640,
+            200
+          ]
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Perk 2",
+      "textFit": {
+        "wrap": true,
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            0,
+            0,
+            640,
+            275
+          ]
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Call to action",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Brand",
+      "textFit": {
+        "wrap": true,
+        "shrink": "toFit",
+        "region": {
+          "source": "rect",
+          "rect": [
+            0,
+            0,
+            1500,
+            640
+          ]
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Tagline",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    }
+  ]
+}

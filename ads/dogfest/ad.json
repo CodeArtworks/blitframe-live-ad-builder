@@ -1,0 +1,45 @@
+{
+  "order": 3,
+  "name": "Dog fest",
+  "project": "Live ad builder: dog fest",
+  "fields": [
+    { "id": "headline1", "label": "Headline line 1", "layer": "Headline 1", "maxLength": 14 },
+    { "id": "headline3", "label": "Headline line 2", "layer": "Headline 3", "maxLength": 14 },
+    { "id": "festival1", "label": "Festival line 1", "layer": "Festival line 1", "maxLength": 14 },
+    { "id": "festival2", "label": "Festival line 2", "layer": "Festival line 2", "maxLength": 16 },
+    { "id": "beerName", "label": "Beer name", "layer": "Beer name", "maxLength": 16 },
+    { "id": "date", "label": "Date and place", "layer": "Date and place", "maxLength": 36 },
+    { "id": "callToAction", "label": "Call to action", "layer": "Call to action", "maxLength": 20 },
+    { "id": "perks", "label": "Small print", "layer": "Perks", "maxLength": 40 }
+  ],
+  "pictures": [
+    {
+      "id": "dog",
+      "label": "Dog",
+      "layers": ["Dog"],
+      "fit": "contain",
+      "uploadHint": "Your dog as a cutout on a transparent background looks best.",
+      "choices": [
+        { "id": "golden", "label": "Golden", "path": "images/dog/golden.png" },
+        { "id": "corgi", "label": "Corgi", "path": "images/dog/corgi.png" },
+        { "id": "dalmatian", "label": "Dalmatian", "path": "images/dog/dalmatian.png" },
+        { "id": "pug", "label": "Pug", "path": "images/dog/pug.png" }
+      ]
+    },
+    {
+      "id": "beer",
+      "label": "Beer",
+      "layers": ["Beer"],
+      "fit": "contain",
+      "uploadHint": "A can or bottle cutout looks best.",
+      "choices": [
+        { "id": "good-boy", "label": "Good Boy IPA", "path": "images/beer/good-boy.png" },
+        { "id": "hazy-corgi", "label": "Hazy Corgi", "path": "images/beer/hazy-corgi.png" },
+        { "id": "spotted-stout", "label": "Spotted Stout", "path": "images/beer/spotted-stout.png" },
+        { "id": "pug-life", "label": "Pug Life Sour", "path": "images/beer/pug-life.png" }
+      ]
+    }
+  ],
+  "sample": "sample.mp4",
+  "poster": "poster.jpg"
+}

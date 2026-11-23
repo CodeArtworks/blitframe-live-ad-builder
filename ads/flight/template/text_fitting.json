@@ -1,0 +1,90 @@
+{
+  "layers": [
+    {
+      "nm": "Headline",
+      "textFit": {
+        "wrap": true,
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "maxLines": 3,
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Kicker",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Route",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Price",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Saving",
+      "textFit": {
+        "wrap": true,
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "maxLines": 2,
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Tagline",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Call to action",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Price badge",
+      "textFit": {
+        "wrap": true,
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "maxLines": 2,
+        "minSize": 10
+      }
+    }
+  ]
+}

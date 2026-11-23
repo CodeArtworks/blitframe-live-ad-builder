@@ -1,0 +1,58 @@
+{
+  "order": 2,
+  "name": "Flight deal",
+  "project": "Live ad builder: flight deal",
+  "fields": [
+    { "id": "headline", "label": "Headline", "layer": "Headline", "maxLength": 24 },
+    { "id": "kicker", "label": "Kicker", "layer": "Kicker", "maxLength": 22 },
+    { "id": "route", "label": "Route", "layer": "Route", "maxLength": 22 },
+    { "id": "price", "label": "Fare", "layer": "Price", "maxLength": 5 },
+    { "id": "saving", "label": "Saving badge", "layer": "Saving", "maxLength": 10 },
+    { "id": "tagline", "label": "Tagline", "layer": "Tagline", "maxLength": 22 },
+    { "id": "priceBadge", "label": "Price badge", "layer": "Price badge", "maxLength": 12 },
+    { "id": "callToAction", "label": "Call to action", "layer": "Call to action", "maxLength": 30 }
+  ],
+  "pictures": [
+    {
+      "id": "destination",
+      "label": "Destination",
+      "layers": ["Destination photo"],
+      "fit": "cover",
+      "uploadHint": "Any landscape image of a kitchen or a place.",
+      "choices": [
+        { "id": "italy", "label": "Italy", "path": "images/destination/italy.jpg" },
+        { "id": "japan", "label": "Japan", "path": "images/destination/japan.jpg" },
+        { "id": "mexico", "label": "Mexico", "path": "images/destination/mexico.jpg" },
+        { "id": "france", "label": "France", "path": "images/destination/france.jpg" }
+      ]
+    },
+    {
+      "id": "host",
+      "label": "Host",
+      "layers": ["Host"],
+      "fit": "contain",
+      "uploadHint": "A cutout on a transparent background looks best.",
+      "choices": [
+        { "id": "giulia", "label": "Giulia", "path": "images/host/giulia.png" },
+        { "id": "kenji", "label": "Kenji", "path": "images/host/kenji.png" },
+        { "id": "lupita", "label": "Lupita", "path": "images/host/lupita.png" },
+        { "id": "camille", "label": "Camille", "path": "images/host/camille.png" }
+      ]
+    },
+    {
+      "id": "dish",
+      "label": "Dish",
+      "layers": ["Dish"],
+      "fit": "contain",
+      "uploadHint": "A dish cut out on a transparent background looks best.",
+      "choices": [
+        { "id": "tagliatelle", "label": "Tagliatelle", "path": "images/dish/tagliatelle.png" },
+        { "id": "ramen", "label": "Ramen", "path": "images/dish/ramen.png" },
+        { "id": "tacos", "label": "Tacos", "path": "images/dish/tacos.png" },
+        { "id": "onion-soup", "label": "Onion soup", "path": "images/dish/onion-soup.png" }
+      ]
+    }
+  ],
+  "sample": "sample.mp4",
+  "poster": "poster.jpg"
+}

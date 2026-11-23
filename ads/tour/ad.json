@@ -1,0 +1,60 @@
+{
+  "order": 1,
+  "name": "Tour teaser",
+  "project": "Live ad builder: tour teaser",
+  "fields": [
+    { "id": "title1", "label": "Title line 1", "layer": "Title line 1", "maxLength": 16 },
+    { "id": "title2", "label": "Title line 2", "layer": "Title line 2", "maxLength": 16 },
+    { "id": "title3", "label": "Title line 3", "layer": "Title line 3", "maxLength": 16 },
+    { "id": "badge", "label": "Badge", "layer": "Badge", "maxLength": 20 },
+    { "id": "highlight", "label": "Highlight", "layer": "Highlight", "maxLength": 24 },
+    { "id": "price", "label": "Price", "layer": "Price", "maxLength": 8 },
+    { "id": "callToAction", "label": "Call to action", "layer": "Call to action", "maxLength": 24 },
+    { "id": "website", "label": "Website", "layer": "Website", "maxLength": 30 }
+  ],
+  "pictures": [
+    {
+      "id": "venue",
+      "label": "Venue",
+      "layers": ["Venue photo (opening)", "Venue photo (ending)"],
+      "fit": "cover",
+      "uploadHint": "Any landscape image of a venue or a crowd.",
+      "choices": [
+        { "id": "stadium", "label": "Stadium", "path": "images/crowd.jpg" },
+        {
+          "id": "synth-arena",
+          "label": "Synth arena",
+          "path": "images/venues/synth-arena/crowd.jpg",
+          "also": [{ "layer": "Tickets", "path": "images/venues/synth-arena/tickets.png" }]
+        },
+        {
+          "id": "opera-house",
+          "label": "Opera house",
+          "path": "images/venues/opera-house/crowd.jpg",
+          "also": [{ "layer": "Tickets", "path": "images/venues/opera-house/tickets.png" }]
+        },
+        {
+          "id": "warehouse",
+          "label": "Warehouse",
+          "path": "images/venues/warehouse/crowd.jpg",
+          "also": [{ "layer": "Tickets", "path": "images/venues/warehouse/tickets.png" }]
+        }
+      ]
+    },
+    {
+      "id": "artist",
+      "label": "Artist",
+      "layers": ["Artist photo"],
+      "fit": "contain",
+      "uploadHint": "A cutout on a transparent background looks best.",
+      "choices": [
+        { "id": "rocker", "label": "Rocker", "path": "images/artist.png" },
+        { "id": "synth", "label": "Synth", "path": "images/artists/chrome-synth.png" },
+        { "id": "cellist", "label": "Cellist", "path": "images/artists/velvet-strings.png" },
+        { "id": "bassist", "label": "Bassist", "path": "images/artists/masked-bass.png" }
+      ]
+    }
+  ],
+  "sample": "sample.mp4",
+  "poster": "poster.jpg"
+}

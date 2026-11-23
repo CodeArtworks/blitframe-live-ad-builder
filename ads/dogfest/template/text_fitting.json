@@ -1,0 +1,84 @@
+{
+  "layers": [
+    {
+      "nm": "Headline 1",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Headline 3",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Festival line 1",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Festival line 2",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Beer name",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Date and place",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Call to action",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Perks",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    }
+  ]
+}

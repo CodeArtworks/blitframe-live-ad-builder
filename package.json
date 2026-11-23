@@ -1,0 +1,23 @@
+{
+  "name": "blitframe-live-ad-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Edit a video ad in a web form and watch it play while Blitframe renders it.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.ts",
+    "check": "tsc",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "hls.js": "1.7.4"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "typescript": "7.0.2"
+  }
+}

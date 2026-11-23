@@ -1,0 +1,59 @@
+{
+  "order": 4,
+  "name": "Pet perks",
+  "project": "Live ad builder: pet perks",
+  "fields": [
+    { "id": "headline", "label": "Headline", "layer": "Headline", "maxLength": 24 },
+    { "id": "subline", "label": "Subline", "layer": "Subline", "maxLength": 26 },
+    { "id": "offer", "label": "Offer", "layer": "Offer", "maxLength": 28 },
+    { "id": "offerDetail", "label": "Offer detail", "layer": "Offer detail", "maxLength": 34 },
+    { "id": "perk1", "label": "Perk 1", "layer": "Perk 1", "maxLength": 30 },
+    { "id": "perk2", "label": "Perk 2", "layer": "Perk 2", "maxLength": 36 },
+    { "id": "callToAction", "label": "Call to action", "layer": "Call to action", "maxLength": 26 },
+    { "id": "brand", "label": "Brand", "layer": "Brand", "maxLength": 18 },
+    { "id": "tagline", "label": "Tagline", "layer": "Tagline", "maxLength": 20 }
+  ],
+  "pictures": [
+    {
+      "id": "dog",
+      "label": "Dog",
+      "layers": ["Dog"],
+      "fit": "contain",
+      "uploadHint": "Your pet as a cutout on a transparent background looks best.",
+      "choices": [
+        { "id": "retriever", "label": "Retriever", "path": "images/dog/retriever.png" },
+        { "id": "husky", "label": "Husky", "path": "images/dog/husky.png" },
+        { "id": "beagle", "label": "Beagle", "path": "images/dog/beagle.png" },
+        { "id": "frenchie", "label": "Frenchie", "path": "images/dog/frenchie.png" }
+      ]
+    },
+    {
+      "id": "car",
+      "label": "Car",
+      "layers": ["Car"],
+      "fit": "contain",
+      "uploadHint": "A side view cutout facing left looks best.",
+      "choices": [
+        { "id": "suv", "label": "Woody SUV", "path": "images/car/suv.png" },
+        { "id": "convertible", "label": "Roadster", "path": "images/car/convertible.png" },
+        { "id": "hatchback", "label": "Electric", "path": "images/car/hatchback.png" },
+        { "id": "pickup", "label": "Pickup", "path": "images/car/pickup.png" }
+      ]
+    },
+    {
+      "id": "cat",
+      "label": "Cat",
+      "layers": ["Cat"],
+      "fit": "contain",
+      "uploadHint": "A sitting cat as a cutout on a transparent background looks best.",
+      "choices": [
+        { "id": "shorthair", "label": "Shorthair", "path": "images/cat/shorthair.png" },
+        { "id": "ginger", "label": "Ginger", "path": "images/cat/ginger.png" },
+        { "id": "black", "label": "Black cat", "path": "images/cat/black.png" },
+        { "id": "siamese", "label": "Siamese", "path": "images/cat/siamese.png" }
+      ]
+    }
+  ],
+  "sample": "sample.mp4",
+  "poster": "poster.jpg"
+}

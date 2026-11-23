@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Live ad builder · Blitframe example</title>
+  <link rel="icon" href="/codeartworks-mark.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="brand" href="https://codeartworks.com/blitframe" target="_blank" rel="noreferrer">
+        <img src="/codeartworks-mark.png" width="26" height="26" alt="">Blitframe
+      </a>
+      <span class="crumb">Examples<span aria-hidden="true">/</span>Live ad builder</span>
+      <div class="top-right">
+        <span id="connection" class="badge ok">Production API</span>
+        <button id="change-key" class="button secondary small" type="button" hidden></button>
+        <a class="top-link" href="https://codeartworks.com/docs/blitframe/renders#live-hls" target="_blank" rel="noreferrer">How live HLS works</a>
+        <a class="button secondary small" href="https://codeartworks.com/docs/blitframe" target="_blank" rel="noreferrer">Docs</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">Blitframe example · Live HLS</p>
+        <h1>Live ad builder</h1>
+      </div>
+      <p class="lede">Pick an ad, choose its pictures or upload your own, write the copy and press Render. It starts playing in
+        seconds, while the rest is still rendering.</p>
+    </section>
+
+    <div class="layout">
+      <div class="stage-area">
+        <section class="stage" aria-label="Preview">
+          <div class="screen">
+            <video id="video" playsinline muted></video>
+            <div id="placeholder" class="placeholder">
+              <video id="sample" autoplay muted loop playsinline aria-hidden="true"></video>
+              <p id="sample-caption"></p>
+            </div>
+            <p id="chip" class="chip" hidden></p>
+          </div>
+          <div class="stage-bar">
+            <p id="status" role="status" aria-live="polite">Your ad plays here a few seconds after you press Render.</p>
+            <span id="timer" class="timer" hidden></span>
+            <a id="download" class="button accent small" hidden download>Download MP4</a>
+          </div>
+
+          <div class="history" id="history-section" hidden>
+            <h2>This session</h2>
+            <ol id="history"></ol>
+          </div>
+        </section>
+      </div>
+
+      <form id="ad-form" class="panel" novalidate>
+        <div class="panel-body">
+          <div id="ads" class="ad-tabs" role="tablist" aria-label="Ads"></div>
+          <div id="pictures" class="pictures"></div>
+          <div id="fields"></div>
+        </div>
+        <div class="panel-foot">
+          <button id="render" class="button accent wide" type="submit">Render</button>
+          <p id="form-error" class="error" role="alert"></p>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <dialog id="connect" class="connect">
+    <form id="connect-form">
+      <p class="eyebrow">Blitframe example · Live ad builder</p>
+      <h2>Connect your Blitframe account</h2>
+      <p class="connect-lede">The ad builder renders on the Blitframe API with your own key. Paste one here. The free trial is enough.</p>
+      <label class="connect-field">API key
+        <input id="connect-key" type="password" autocomplete="off" spellcheck="false" placeholder="blitframe_…">
+      </label>
+      <p id="connect-error" class="error" role="alert"></p>
+      <div class="connect-actions">
+        <button id="connect-submit" class="button accent" type="submit">Connect</button>
+        <button id="connect-cancel" class="button secondary" type="button" hidden>Cancel</button>
+        <a href="https://app.codeartworks.com/blitframe/api-keys" target="_blank" rel="noreferrer">Create a key in the console</a>
+      </div>
+      <p class="connect-hint">This app's own server checks the key with Blitframe and saves it to <code>.env</code> on this computer, so the next
+        start connects by itself. The page never stores it.</p>
+    </form>
+  </dialog>
+</body>
+</html>

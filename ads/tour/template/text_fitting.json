@@ -1,0 +1,94 @@
+{
+  "layers": [
+    {
+      "nm": "Title line 1",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Title line 2",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Title line 3",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Badge",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Highlight",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Price",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Call to action",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Website",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    },
+    {
+      "nm": "Urgency",
+      "textFit": {
+        "shrink": "toFit",
+        "region": {
+          "source": "originalBounds"
+        },
+        "minSize": 10
+      }
+    }
+  ]
+}
